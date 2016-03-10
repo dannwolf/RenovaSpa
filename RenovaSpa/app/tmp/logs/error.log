@@ -1,0 +1,607 @@
+2016-03-09 15:44:28 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\RenovaSpa\app\Controller\ClientesController.php, line 58]
+2016-03-09 15:44:28 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /RenovaSpa/clientes/add
+Stack Trace:
+#0 C:\xampp\htdocs\RenovaSpa\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-09 15:45:36 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\RenovaSpa\app\Controller\ClientesController.php, line 58]
+2016-03-09 15:45:36 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /RenovaSpa/clientes/add
+Stack Trace:
+#0 C:\xampp\htdocs\RenovaSpa\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-09 15:48:14 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\RenovaSpa\app\Controller\SesionesController.php, line 60]
+2016-03-09 15:48:14 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /RenovaSpa/sesiones/add
+Stack Trace:
+#0 C:\xampp\htdocs\RenovaSpa\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 60, Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 60, Array)
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-09 16:39:52 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\RenovaSpa\app\Controller\ClientesController.php, line 88]
+2016-03-09 16:39:52 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /RenovaSpa/clientes/edit/3
+Stack Trace:
+#0 C:\xampp\htdocs\RenovaSpa\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 88, Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 88, Array)
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-09 17:49:58 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/responsive.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('responsive.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:49:58 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/grid.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('grid.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:49:58 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/estilos.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('estilos.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:49:58 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:51:14 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/responsive.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('responsive.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:51:14 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/grid.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('grid.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:51:14 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/estilos.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('estilos.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:51:14 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:54:46 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/grid.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('grid.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:54:46 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/estilos.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('estilos.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:54:46 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/responsive.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('responsive.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:54:46 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:54:47 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/responsive.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('responsive.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:54:47 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/grid.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('grid.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:54:47 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/estilos.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('estilos.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:54:47 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:55:38 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/responsive.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('responsive.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:55:38 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/grid.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('grid.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:55:38 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/estilos.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('estilos.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:55:38 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:55:39 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/responsive.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('responsive.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:55:39 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:55:39 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/grid.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('grid.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:55:39 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/estilos.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('estilos.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:55:44 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/responsive.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('responsive.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:55:44 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/grid.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('grid.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:55:44 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/estilos.css
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('estilos.css')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:55:44 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:56:12 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 17:58:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /RenovaSpa/css/grid.css
+Stack Trace:
+#0 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-09 17:59:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /RenovaSpa/css/grid.css
+Stack Trace:
+#0 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-09 18:00:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /RenovaSpa/css/grid.css
+Stack Trace:
+#0 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-09 18:01:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /RenovaSpa/css/grid.css
+Stack Trace:
+#0 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-09 18:01:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /RenovaSpa/css/grid.css
+Stack Trace:
+#0 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-09 18:16:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /RenovaSpa/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-09 18:21:47 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:26:11 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:26:29 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:26:31 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:26:58 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:27:36 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:28:10 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:29:17 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:30:26 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:30:51 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:31:11 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:31:46 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:32:46 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:34:58 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:35:23 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:36:26 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:36:48 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:37:05 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:38:03 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:38:54 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:39:49 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:40:07 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:43:24 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:43:49 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:44:02 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:44:22 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:44:36 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-09 18:44:44 Error: [NotFoundException] Invalid cliente
+Request URL: /RenovaSpa/clientes/pdf/img/logo.png
+Stack Trace:
+#0 [internal function]: ClientesController->PDF('img', 'logo.png')
+#1 C:\xampp\htdocs\RenovaSpa\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\RenovaSpa\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\RenovaSpa\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
